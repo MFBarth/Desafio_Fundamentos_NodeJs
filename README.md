@@ -11,6 +11,6 @@ Nesse desafio, foi criado uma aplicação Node.js que permite incluir e listar o
 
 Abaixo as funcionalidades que foram criadas para atender o desafio.
 
-**`POST /transactions`**: A rota recebe `title`, `value` e `type` dentro do corpo da requisição, sendo o type o tipo da transação, que deve ser `income` para entradas (depósitos) e `outcome` para saidas (retiradas).
+- **`POST /transactions`**: A rota recebe `title`, `value` e `type` dentro do corpo da requisição, sendo o type o tipo da transação, que deve ser `income` para entradas (depósitos) e `outcome` para saidas (retiradas).
 
 - **`GET /transactions`**: Essa rota retorna uma listagem com todas as transações que você cadastrou até agora, junto com o valor de soma de entradas, retiradas e total de crédito.
